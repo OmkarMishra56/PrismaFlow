@@ -1,6 +1,7 @@
 # PrismaFlow | Task Intelligence
 
 PrismaFlow is a high-performance productivity engine featuring intelligent task decomposition, priority analysis powered by Gemini AI, and a modern enterprise-grade architecture inspired by Microsoft's Fluent UI design system.
+
 <img width="1909" height="798" alt="prismaflow " src="https://github.com/user-attachments/assets/f827a345-4efe-4c6e-8545-3097db527b67" />
 
 ---
