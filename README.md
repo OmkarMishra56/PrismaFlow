@@ -38,26 +38,25 @@ PrismaFlow is a high-performance productivity engine featuring intelligent task 
 ## 📁 Project Structure
 
 ```text
-├── App.tsx                  # Main application & routing logic
-├── index.tsx                # React entry point & theme provider
-├── index.html               # Fluent UI styles, Bloom animations & scripts
-├── types.ts                 # TypeScript interfaces (Task, Priority, User)
-├── metadata.json            # App metadata & permissions
+├── App.tsx                  
+├── index.tsx                
+├── index.html               
+├── types.ts                 
+├── metadata.json          
 ├── services/
-│   ├── api.ts               # Simulated backend & localStorage persistence
-│   └── geminiService.ts     # Gemini API integration & prompt engineering
+│   ├── api.ts               
+│   └── geminiService.ts     
 ├── context/
-│   ├── AuthContext.tsx      # User session & authentication state
-│   └── ThemeContext.tsx     # Dynamic Light/Dark mode management
+│   ├── AuthContext.tsx      
+│   └── ThemeContext.tsx     
 └── components/
-    ├── Layout.tsx           # Fixed glass navigation & core structure
-    ├── TaskForm.tsx         # Microsoft Deployment Console (Task Input)
-    ├── TaskItem.tsx         # Interactive task cards with AI features
-    ├── SmartAnalysis.tsx    # Neural Engine summary component
-    └── AIAssistant.tsx      # Floating Neural Nexus chat interface
+    ├── Layout.tsx           
+    ├── TaskForm.tsx       
+    ├── TaskItem.tsx         
+    ├── SmartAnalysis.tsx 
+    └── AIAssistant.tsx      
 ```
 
----
 
 ## ⚙️ Setup & Installation
 
@@ -73,8 +72,8 @@ The application requires a valid Google Gemini API Key. Ensure `process.env.API_
 Since this project uses ES6 modules directly via import maps in `index.html`, you can serve it using any local web server:
 
 ```bash
-# Using npx (Static Server)
-npx serve .
+
+npx serve 
 ```
 
 ---
